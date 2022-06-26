@@ -6,10 +6,329 @@
     .idc-container {
         max-width: 930px;
     }
+
+    .idc-h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .idc-h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .idc-text-1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .idc-text-2 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .idc-text-2b {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .idc-text-3 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .idc-text-4 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    /* ********head******* */
+    .idc-head-main {
+        margin-top: 40px;
+    }
+    .idc-people-block {
+        padding-top: 25px;
+        padding-bottom: 45px;
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+    .idc-head .idc-people-img {
+        width: 363px;
+    }
+    .idc-head .idc-h1 {
+        width: auto;
+        max-width: 444px;
+    }
+    .idc-head .idc-img-block .idc-img {
+        width: calc(20% - 3px);
+        margin-left: auto;
+    }
+
+    /* ********boss******* */
+
+    .idc-boss .idc-content {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .idc-boss-img {
+        width: 243px;
+    }
+    .idc-boss .idc-play-btn {
+        width: 52px;
+        right: -26px;
+        bottom: 0;
+    }
+    .idc-boss-img .idc-text-4 {
+        bottom: 0;
+        left: calc(100% + 30px);
+    }
+    .idc-boss-info {
+        margin-top: 20px;
+    }
+    .idc-boss .idc-text-block {
+        padding-top: 40px;
+        max-width: 493px;
+    }
+    .idc-boss .idc-text-block .idc-text-2 + .idc-text-2 {
+        margin-top: 10px;
+    }
+
+    /* ********about******* */
+    .idc-swiper-1,
+    .idc-swiper-2 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .idc-swiper-1 .idc-text-1 {
+        flex: 1;
+        padding: 37px 50px 37px 50px;
+    }
+    .idc-swiper-2 .swiper-slide {
+        height: 265px;
+    }
+    .idc-about .idc-back {
+        padding: 30px 20px 36px 20px;
+    }
+
+    /* ********mission******* */
+    .idc-mission .idc-container {
+        padding-top: 100px;
+    }
+    .idc-mission .idc-text-2 {
+        max-width: 524px;
+        margin-top: 35px;
+    }
+    .idc-mission .idc-squad {
+        margin-top: 37px;
+        padding-left: 50px;
+    }
+    .idc-mission .idc-img {
+        width: 402px;
+    }
+    /* ********vacancy******* */
+    .idc-vacancy .idc-container {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .idc-vacancy .idc-logo {
+        width: 318px;
+        margin-top: 15px;
+    }
+
+    .idc-2p {
+        width: 2px;
+        height: 2px;
+    }
+    .idc-3p {
+        width: 3px;
+        height: 3px;
+    }
+    .idc-4p {
+        width: 4px;
+        height: 4px;
+    }
+    .idc-6p {
+        width: 5px;
+        height: 5px;
+    }
+    .idc-7p {
+        width: 6px;
+        height: 6px;
+    }
+    .idc-8p {
+        width: 7px;
+        height: 7px;
+    }
+    .idc-11p {
+        width: 8px;
+        height: 8px;
+    }
+    .idc-ps {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 90px;
+    }
 }
 @media (max-width: 1019px) {
     .idc-container {
         max-width: 610px;
+    }
+    .idc-h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .idc-h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .idc-text-1 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .idc-text-2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .idc-text-2b {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .idc-text-3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .idc-text-4 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    /* ********head******* */
+    .idc-head .idc-container {
+        padding-top: 50px;
+    }
+    .idc-head .idc-logo {
+        width: 171px;
+    }
+    .idc-head .idc-vk {
+        width: 40px;
+    }
+    .idc-head-main {
+        margin-top: 30px;
+    }
+    .idc-people-block {
+        padding-top: 20px;
+        padding-bottom: 22px;
+        padding-left: 30px;
+        padding-right: 7px;
+    }
+    .idc-head .idc-people-img {
+        width: 244px;
+    }
+    .idc-head .idc-h1 {
+        max-width: 292px;
+    }
+    /* ********boss******* */
+    .idc-boss .idc-container {
+        padding-top: 70px;
+    }
+    .idc-boss .idc-content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .idc-boss-img {
+        width: 157px;
+    }
+    .idc-boss .idc-text-block {
+        padding-top: 10px;
+        max-width: 344px;
+    }
+
+    /* ********about******* */
+    .idc-about .idc-container {
+        padding-top: 70px;
+    }
+    .idc-about .idc-swiper-block {
+        margin-top: 30px;
+    }
+    .idc-swiper-1,
+    .idc-swiper-2 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .idc-swiper-1 .idc-img {
+        height: 280px;
+    }
+    .idc-swiper-1 .idc-text-1 {
+        flex: 1;
+        padding: 37px 26px 37px 33px;
+    }
+    .idc-swiper-1 .idc-swiper-button-prev,
+    .idc-swiper-1 .idc-swiper-button-next {
+        transform: translateY(-50%);
+        width: 12px;
+    }
+    .idc-about .idc-gallery {
+        margin-top: 40px;
+    }
+    .idc-swiper-2 .swiper-slide {
+        height: 270px;
+    }
+    .idc-about .idc-back {
+        padding: 30px 30px 30px 20px;
+    }
+
+    /* ********mission******* */
+    .idc-mission .idc-container {
+        padding-top: 80px;
+    }
+    .idc-mission .idc-text-2 {
+        max-width: 333px;
+        margin-top: 15px;
+    }
+    .idc-mission .idc-squad {
+        margin-top: 20px;
+        padding-left: 30px;
+    }
+    .idc-mission .idc-img {
+        width: 280px;
+    }
+
+    /* ********vacancy******* */
+    .idc-vacancy .idc-container {
+        padding-top: 70px;
+        padding-bottom: 35px;
+    }
+    .idc-vacancy .idc-logo {
+        width: 214px;
+        margin-top: 10px;
+    }
+    .idc-ps {
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: 50px;
+    }
+    .idc-2p,
+    .idc-3p {
+        display: none;
+    }
+
+    .idc-6p {
+        width: 5px;
+        height: 5px;
+    }
+    .idc-7p {
+        width: 6px;
+        height: 6px;
+    }
+    .idc-8p {
+        width: 7px;
+        height: 7px;
+    }
+    .idc-11p {
+        width: 8px;
+        height: 8px;
     }
 }
 @media (max-width: 699px) {
@@ -17,5 +336,256 @@
         max-width: 100%;
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .idc-h1 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .idc-h2 {
+        /* font-size: 16px; */
+        /* line-height: 20px; */
+        font-size: 5vw;
+        line-height: 6.2vw;
+    }
+
+    .idc-text-1 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .idc-text-2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .idc-text-2b {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .idc-text-3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .idc-text-4 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .idc-swiper-pagination {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .swiper-pagination-bullet {
+        width: 7px;
+        height: 7px;
+        border: 1px solid #345056;
+        background: none;
+        opacity: 1;
+        margin: 0 1px !important;
+    }
+    .swiper-pagination-bullet-active {
+        background: #345056;
+    }
+    /* ********head******* */
+    .idc-head .idc-container {
+        padding-top: 20px;
+    }
+    .idc-head .idc-logo {
+        /* width: 107px; */
+        width: 34vw;
+    }
+    .idc-head .idc-vk {
+        /* width: 30px; */
+        width: 10vw;
+    }
+    .idc-head-main {
+        margin-top: 20px;
+    }
+    .idc-people-block {
+        align-items: flex-end;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    .idc-head .idc-people-img {
+        /* width: 163px; */
+        width: 51vw;
+        margin-left: auto;
+    }
+    .idc-head .idc-h1 {
+        /* width: 214px; */
+        width: 67vw;
+        max-width: unset;
+        font-size: 7vw;
+        line-height: 8.7vw;
+    }
+    .idc-head .idc-img-block .idc-img:last-child {
+        display: none;
+    }
+    .idc-head .idc-img-block .idc-img {
+        width: calc(50% - 3px);
+        margin-left: 6px;
+        margin-top: 6px;
+    }
+    .idc-head .idc-img-block .idc-img:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+    .idc-head .idc-img-block .idc-img:nth-child(1),
+    .idc-head .idc-img-block .idc-img:nth-child(2) {
+        margin-top: 0;
+    }
+
+    /* ********boss******* */
+
+    .idc-boss .idc-container {
+        padding-top: 40px;
+    }
+    .idc-boss .idc-content {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column-reverse;
+    }
+    .idc-boss .idc-text-block {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .idc-boss .idc-img-block {
+        margin-top: 20px;
+    }
+    .idc-boss-img {
+        width: 33vw;
+    }
+    .idc-boss .idc-play-btn {
+        /* width: 30px; */
+        width: 10vw;
+        right: -15%;
+        bottom: 15%;
+    }
+    .idc-boss-img .idc-text-4 {
+        bottom: 11%;
+        left: calc(100% + 15px);
+    }
+    .idc-boss-info {
+        margin-top: 10px;
+    }
+
+    /* ********about******* */
+    .idc-about .idc-container {
+        padding-top: 60px;
+    }
+    .idc-about .idc-swiper-block {
+        margin-top: 25px;
+    }
+    .idc-swiper-1,
+    .idc-swiper-2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .idc-swiper-1 .idc-swiper-button-prev,
+    .idc-swiper-1 .idc-swiper-button-next {
+        display: none;
+    }
+    .idc-swiper-1 .idc-slide {
+        flex-direction: column;
+    }
+    .idc-swiper-1 .idc-img {
+        height: 270px;
+        width: 100%;
+    }
+    .idc-swiper-1 .idc-text-1 {
+        padding: 25px 35px 25px 20px;
+        flex: 1;
+    }
+    .idc-swiper-2 .swiper-slide {
+        height: 84.3vw;
+        overflow: hidden;
+    }
+    /* ********mission******* */
+
+    .idc-mission .idc-container {
+        padding-top: 70px;
+    }
+    .idc-mission .idc-text-2 {
+        max-width: 66vw;
+        font-size: 4.5vw;
+        line-height: 5vw;
+    }
+    .idc-mission .idc-squad {
+        margin-top: 50px;
+        padding-left: 10px;
+    }
+    .idc-mission .idc-img {
+        /* width: 170px; */
+        width: 53.2vw;
+        margin-top: 8px;
+    }
+    .idc-mission .idc-squad .idc-text-1 {
+        font-size: 5vw;
+        line-height: 6.2vw;
+    }
+
+    /* ********vacancy******* */
+
+    .idc-vacancy .idc-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .idc-vacancy .idc-logo {
+        width: 43.2vw;
+        margin-top: 5px;
+    }
+    .idc-dot {
+        display: none;
+    }
+    .idc-ps {
+        font-size: 10px;
+        line-height: 11px;
+        max-width: 290px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .idc-region {
+        display: block;
+        margin: 0;
+        position: absolute;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 10px;
+        color: #4d4d4d;
+    }
+    .idc-r1 {
+        left: 5.5%;
+        top: 65%;
+    }
+    .idc-r2 {
+        left: 7.5%;
+        top: 48%;
+    }
+    .idc-r3 {
+        left: 9.5%;
+        top: 41%;
+    }
+    .idc-r4 {
+        left: 13.5%;
+        top: 56%;
+    }
+    .idc-r5 {
+        left: 20.5%;
+        top: 34%;
+    }
+    .idc-r6 {
+        left: 31.5%;
+        top: 56%;
+    }
+    .idc-r7 {
+        left: 48.5%;
+        top: 71%;
+    }
+    .idc-r8 {
+        left: 62.5%;
+        top: 43%;
     }
 }

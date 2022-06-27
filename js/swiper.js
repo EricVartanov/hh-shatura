@@ -28,8 +28,12 @@ const swiper2 = new Swiper(".idc-swiper-2", {
     // Default parameters
     loop: false,
     direction: "horizontal",
-    slidesPerView: 1,
+    slidesPerView: 3,
     spaceBetween: 10,
+    grid: {
+        fill: "row",
+        rows: 2,
+    },
     watchSlidesVisibility: true,
     watchSlidesProgress: true,
     touchReleaseOnEdges: true,
@@ -47,6 +51,10 @@ const swiper2 = new Swiper(".idc-swiper-2", {
         320: {
             slidesPerView: 1,
             spaceBetween: 10,
+            grid: {
+                fill: "row",
+                rows: 1,
+            },
         },
         700: {
             slidesPerView: 2,

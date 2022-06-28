@@ -97,6 +97,9 @@
         padding-left: 50px;
         padding-right: 50px;
     }
+    .idc-swiper-1 .swiper-slide:nth-child(4) .idc-img {
+        background: url(../img/about/slide4-1.jpg);
+    }
     .idc-swiper-1 .idc-text-1 {
         -webkit-box-flex: 1;
         -ms-flex: 1;
@@ -315,26 +318,58 @@
         line-height: 14px;
         margin-top: 50px;
     }
-    .idc-2p,
-    .idc-3p {
+    .idc-dot {
         display: none;
     }
 
-    .idc-6p {
-        width: 5px;
-        height: 5px;
+    .idc-mobile-region {
+        display: block;
+        margin: 0;
+        position: absolute;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 10px;
+        color: #4d4d4d;
     }
-    .idc-7p {
-        width: 6px;
-        height: 6px;
+    .idc-r1 {
+        left: 5.5%;
+        top: 65%;
     }
-    .idc-8p {
-        width: 7px;
-        height: 7px;
+    .idc-r2 {
+        left: 7.5%;
+        top: 48%;
     }
-    .idc-11p {
-        width: 8px;
-        height: 8px;
+    .idc-r3 {
+        left: 12%;
+        top: 41%;
+    }
+    .idc-r4 {
+        left: 13.5%;
+        top: 56%;
+    }
+    .idc-r5 {
+        left: 20.5%;
+        top: 34%;
+    }
+    .idc-r6 {
+        left: 31.5%;
+        top: 56%;
+    }
+    .idc-r7 {
+        left: 48.5%;
+        top: 71%;
+    }
+    .idc-r8 {
+        left: 62.5%;
+        top: 43%;
+    }
+    .idc-mobile-region {
+        margin: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #4d4d4d;
     }
 }
 @media (max-width: 699px) {
@@ -504,6 +539,7 @@
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+        align-items: baseline;
     }
     .idc-swiper-1 .idc-img {
         height: 270px;
@@ -514,6 +550,10 @@
         -webkit-box-flex: 1;
         -ms-flex: 1;
         flex: 1;
+        max-width: 100%;
+    }
+    .idc-swiper-1 .idc-text-1 > span {
+        display: inline;
     }
     .idc-swiper-2 .swiper-slide {
         height: 84.3vw;
@@ -553,9 +593,6 @@
         width: 43.2vw;
         margin-top: 5px;
     }
-    .idc-dot {
-        display: none;
-    }
     .idc-ps {
         font-size: 10px;
         line-height: 11px;
@@ -564,44 +601,7 @@
         margin-top: 50px;
     }
     .idc-mobile-region {
-        display: block;
-        margin: 0;
-        position: absolute;
-        font-weight: 400;
         font-size: 9px;
         line-height: 10px;
-        color: #4d4d4d;
-    }
-    .idc-r1 {
-        left: 5.5%;
-        top: 65%;
-    }
-    .idc-r2 {
-        left: 7.5%;
-        top: 48%;
-    }
-    .idc-r3 {
-        left: 9.5%;
-        top: 41%;
-    }
-    .idc-r4 {
-        left: 13.5%;
-        top: 56%;
-    }
-    .idc-r5 {
-        left: 20.5%;
-        top: 34%;
-    }
-    .idc-r6 {
-        left: 31.5%;
-        top: 56%;
-    }
-    .idc-r7 {
-        left: 48.5%;
-        top: 71%;
-    }
-    .idc-r8 {
-        left: 62.5%;
-        top: 43%;
     }
 }

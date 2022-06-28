@@ -30,16 +30,18 @@ window.onload = function () {
 window.onscroll = function () {
     var position = gallery.getBoundingClientRect().top;
 
-    if (position < 200 && !isOpen) {
+    if (position < 400 && !isOpen) {
         toggleFirst();
         isOpen = true;
     }
 };
 
+// желтый цвет округа при клике
+
 document.onreadystatechange = function () {
     var DocWidth = document.documentElement.clientWidth;
-    if (DocWidth < 700) {
-        console.log(true);
+    if (DocWidth < 1020) {
+        // console.log(true);
         // желтый цвет округа при клике
         let regions = document.querySelectorAll(".idc-map .idc-path");
         for (let region of regions) {
@@ -84,15 +86,21 @@ document.onreadystatechange = function () {
 // клие по городам
 let dots = document.querySelectorAll(".idc-dot");
 for (let dot of dots) {
-    let region = dots.closest;
+    let regionNumber = dot.getAttribute("data-region");
+    let region = document.querySelector(
+        '.idc-map .idc-path[data-region="' + regionNumber + '"]'
+    );
+    dot.addEventListener("mouseover", function () {
+        // console.log("hover");
+        region.classList.add("hover");
+    });
+    dot.addEventListener("mouseout", function () {
+        region.classList.remove("hover");
+    });
     dot.addEventListener("click", function (e) {
         e.preventDefault();
-        let target = e.target;
-        let regionNumber = dot.getAttribute("data-region");
-        let region = document.querySelector(
-            '.idc-map .idc-path[data-region="' + regionNumber + '"]'
-        );
-        console.log(region);
+        // let target = e.target;
+        // console.log(region);
         if (
             document.querySelector(".idc-dot.clicked") &&
             document.querySelector(".idc-path.clicked")
